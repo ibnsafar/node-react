@@ -1,0 +1,1 @@
+export const API_PATH = "https://jsonplaceholder.typicode.com/posts";
