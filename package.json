@@ -1,27 +1,24 @@
 {
-  "name": "nodejs-express-sequelize-postgresql",
+  "name": "node-servertest",
   "version": "1.0.0",
-  "description": "Node.js Rest Apis with Express, Sequelize & PostgreSQL",
-  "main": "server.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
   },
-  "keywords": [
-    "nodejs",
-    "express",
-    "sequelize",
-    "rest",
-    "api",
-    "postgresql"
-  ],
-  "author": "bezkoder",
-  "license": "ISC",
+  "repository": "https://github.com/Yokub1/node-servertest",
+  "author": "Yokub1 <yokubibnsafar@gmail.com>",
+  "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.19.2",
     "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "pg": "^7.17.1",
-    "pg-hstore": "^2.3.3",
-    "sequelize": "^5.21.3"
+    "express": "^4.17.2",
+    "knex": "^1.0.3",
+    "mongoose": "^6.2.1",
+    "nano": "^9.0.5",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "express-validator": "^6.14.0"
   }
 }

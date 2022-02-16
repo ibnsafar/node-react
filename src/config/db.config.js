@@ -1,13 +1,9 @@
-module.exports = {
-    HOST: "localhost",
-    USER: "postgres",
-    PASSWORD: "123",
-    DB: "testdb",
-    dialect: "postgres",
-    pool: {
-        max: 5,
-        min: 0,
-        acquire: 30000,
-        idle: 10000
-    }
-};
+const Pool = require('pg').Pool
+
+export const pool = new Pool({
+    user: 'postgres',
+    host: 'localhost',
+    database: 'node-article',
+    password: 'po12',
+    port: 5432,
+})
