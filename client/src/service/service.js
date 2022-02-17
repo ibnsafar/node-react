@@ -1,1 +1,1 @@
-export const API_PATH = "https://jsonplaceholder.typicode.com/posts";
+export const API_PATH = "http://localhost:3000/article";

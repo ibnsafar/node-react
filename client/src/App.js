@@ -1,13 +1,13 @@
 import {Route, Routes} from "react-router-dom";
-import Home from "./pages/Home";
-import TodoDynamic from "./pages/TodoDynamic";
+import Articles from "./pages/Articles";
+import Article from "./pages/Article";
 
 const App = () => {
     return (
         <Routes>
-            <Route path={"/"} element={<Home/>}/>
-            <Route path={"/home"} element={<Home/>}/>
-            <Route path={"/todo/:id"} element={<TodoDynamic/>}/>
+            <Route path={"/"} element={<Articles/>}/>
+            <Route path={"/articles"} element={<Articles/>}/>
+            <Route path={"/article/:id"} element={<Article/>}/>
         </Routes>
     );
 }

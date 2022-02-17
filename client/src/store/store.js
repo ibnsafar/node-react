@@ -1,8 +1,8 @@
 import {configureStore} from "@reduxjs/toolkit";
-import todoReducer from "./reducers/todoReducer";
+import articleReducer from "./reducers/articleReducer";
 
 export default configureStore({
     reducer: {
-        todoReducer
+        articleReducer
     }
 })
